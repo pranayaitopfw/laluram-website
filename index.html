@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laluram Halvaiwala - Pure Traditional Mithai</title>
+  <meta name="description" content="Laluram Halvaiwala - Serving authentic Indian sweets, peda, barfi, gulab jamun, halwa & more made with pure desi ghee since years."/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+      <a href="https://wa.me/9198XXXXXXXX" target="_blank" 
+      style="position:fixed; bottom:20px; right:20px; background:#25D366; 
+      color:white; padding:15px 18px; border-radius:50%; 
+      font-size:22px; text-decoration:none; box-shadow:0 4px 10px rgba(0,0,0,0.3);">
+        💬
+      </a>
+      
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fffaf0;
+    }
+    header {
+      background: linear-gradient(135deg, #c0392b, #e74c3c);
+      color: white;
+      text-align: center;
+      padding: 4rem 1rem 3rem;
+    }
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    }
+    header p.tagline {
+      font-size: 1.4rem;
+      opacity: 0.95;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    nav {
+      background: #8d1e1e;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #c0392b;
+      text-align: center;
+      margin-bottom: 2.5rem;
+      font-size: 2.5rem;
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      width: 80px;
+      height: 4px;
+      background: #e67e22;
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .about p {
+      font-size: 1.15rem;
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+    }
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .card h3 {
+      padding: 1rem;
+      color: #c0392b;
+      font-size: 1.4rem;
+    }
+    .card p {
+      padding: 0 1.2rem 1.5rem;
+      color: #555;
+    }
+    .contact {
+      background: #fdf2e9;
+      text-align: center;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3rem;
+      margin: 2rem 0;
+    }
+    .contact-item {
+      font-size: 1.2rem;
+    }
+    .contact-item strong {
+      color: #c0392b;
+    }
+    footer {
+      background: #2c2c2c;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.4rem; }
+      nav ul { flex-direction: column; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Laluram Halvaiwala</h1>
+    <p class="tagline">Pure Desi Ghee • Traditional Taste • Made with Love Since Generations</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#sweets">Our Sweets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>Welcome to Laluram Halvaiwala</h2>
+    <p>For decades, Laluram Halvaiwala has been delighting sweet lovers with authentic, handcrafted mithai prepared using time-tested recipes and the finest ingredients — especially pure desi ghee.</p>
+    <p>From creamy peda and melt-in-mouth barfi to rich sohan halwa and juicy gulab jamun — every piece carries the legacy of taste and tradition.</p>
+    <p>We believe in quality over quantity. No shortcuts. Just pure love in every sweet.</p>
+  </section>
+
+  <section id="sweets" style="background:#fff;">
+    <h2>Our Special Sweets</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1605190852432-3b0e57e3e0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kaju Barfi"/>
+        <h3>Kaju Barfi</h3>
+        <p>Rich cashew fudge made with pure khoya and premium cashews.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1633933358116-28a6896a17a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Gulab Jamun"/>
+        <h3>Gulab Jamun</h3>
+        <p>Soft, spongy milk-solid balls soaked in saffron-cardamom sugar syrup.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1626199787468-8c59e0e552c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Besan Ladoo"/>
+        <h3>Besan Ladoo</h3>
+        <p>Golden gram flour balls roasted in ghee with nuts & cardamom.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1612201142855-7873bc1661b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Peda"/>
+        <h3>Mathura Peda</h3>
+        <p>Classic creamy peda with authentic flavour of slow-cooked khoya.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Halwa"/>
+        <h3>Sohan Halwa / Gajar Halwa</h3>
+        <p>Seasonal delicacy prepared fresh — silky & aromatic.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Ladoo"/>
+        <h3>Motichoor Ladoo</h3>
+        <p>Tiny boondi pearls bound with sugar syrup — perfect for every occasion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>We take bulk & custom orders for weddings, festivals, and special occasions.</p>
+    
+    <div class="contact-info">
+      <div class="contact-item">
+        <strong>📍 Visit Us:</strong><br>
+        Laluram Halvaiwala Sweet Shop<br>
+        Main Market, Nanded / Your City, Maharashtra
+      </div>
+      <div class="contact-item">
+        <strong>📞 Call / WhatsApp:</strong><br>
+        +91 98XXXX XXXX<br>
+        +91 94XXXX XXXX
+      </div>
+      <div class="contact-item">
+        <strong>🕒 Timings:</strong><br>
+        8:00 AM – 10:00 PM (Daily)
+      </div>
+    </div>
+    
+    <p style="margin-top:2rem; font-size:1.2rem;">Fresh sweets available daily • Home delivery in selected areas • Festival special hampers</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Laluram Halvaiwala. All rights reserved.<br>
+    Made with ❤️ for pure desi mithai lovers</p>
+  </footer>
+
+</body>
+</html>
